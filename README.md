@@ -11,4 +11,4 @@ This project reflects short information about my interest - photography. There y
 3. My offer
 Аor convenience for those who prefer a dark background I added JS interaction at the bottom of the page to change background to the dark one.
 ### Example of interaction
-![GIF of my page interaction] (https://github.com/Eugen-save/homepage/blob/main/images/eugen-save-homepage.gif)
+![GIF of my page interaction](https://github.com/Eugen-save/homepage/blob/main/images/eugen-save-homepage.gif?raw=true)
