@@ -1,0 +1,52 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #111;
+    line-height: 2;
+    max-width: 1000px;
+    margin: auto;
+    background: #fff;
+    padding: 20px
+}
+
+.header {
+    color: #fff;
+    background-color: #0f4c81;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 20px;
+    padding: 5px
+}
+
+.image {
+    margin: 0 auto;
+    display: block;
+    max-height: 200px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.darkBackground {
+    background: #222;
+    color: #fff;
+}
+
+.button {
+    padding: 20px;
+    margin: 10px;
+    border-radius: 20px;
+    color: #fff;
+    background-color: #0f4c81;
+    width: 100%;
+}

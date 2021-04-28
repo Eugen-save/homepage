@@ -1,0 +1,18 @@
+.main {
+    padding: 20px 30px;
+    box-shadow: 2px 2px 8px #ccc;
+    margin-bottom: 20px;
+}
+
+
+
+.main__subHeader {
+    font-weight: 500;
+    font-size: 24px;
+    color: #0f4c81;
+    padding: 10px 0;
+}
+
+.main__outerLink {
+    color: #0f4c81;
+}
