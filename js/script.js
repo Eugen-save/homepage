@@ -1,11 +1,22 @@
-console.log("Cześć!")
+{
+    const welcome = () => {
+        console.log("Cześć wszystkim!")
+    }
 
-let button = document.querySelector(".button");
-let body = document.querySelector(".body")
-let darkBackground = document.querySelector(".darkBackground")
-let button__otherName = document.querySelector(".button__otherName")
+    const toggleBackground = () => {
+        const body = document.querySelector(".body");
+        const nextColorName = document.querySelector(".js-nextColorName");
 
-button.addEventListener("click", () => {
-body.classList.toggle("darkBackground");
-button__otherName.innerText = body.classList.contains("darkBackground") ? "jasny" : "ciemny";
-})
+        body.classList.toggle("body--dark");
+        nextColorName.innerText = body.classList.contains("body--dark") ? "jasny" : "ciemny";
+    };
+
+    const init = () => {
+        const changeBackgroundButton = document.querySelector(".js-changeBackgroundButton");
+        changeBackgroundButton.addEventListener("click", toggleBackground);
+
+        welcome();
+    };
+
+    init();
+}

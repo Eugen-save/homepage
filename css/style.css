@@ -37,7 +37,7 @@ html {
     margin-bottom: 10px;
 }
 
-.darkBackground {
+.body--dark {
     background: #222;
     color: #fff;
 }
